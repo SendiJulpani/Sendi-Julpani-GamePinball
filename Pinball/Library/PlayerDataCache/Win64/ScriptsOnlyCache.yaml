@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - BounceObject
+    - CameraController
     - FlipperScript
     - GameManagerScript
     - OutOfBound
@@ -10,6 +11,8 @@ ScriptsOnlyBuild:
     - ScoreManager
     - SwitchBlinking
     - SwitchMaterial
+    - ZoomInTrigger
+    - ZoomOutTrigger
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro:
@@ -17,8 +20,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
-    Unity.TextMeshPro.dll:
-    - TMPro.TMP_FontAsset
     Unity.Timeline.Editor.dll:
     - TimelinePreferences
     - UnityEditor.Timeline.SequenceHierarchy
@@ -147,13 +148,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18158}
     - Class: 114
-      Script: {instanceID: 20314}
+      Script: {instanceID: 20316}
     - Class: 114
-      Script: {instanceID: 20614}
+      Script: {instanceID: 20616}
     - Class: 114
-      Script: {instanceID: 21080}
+      Script: {instanceID: 21082}
     - Class: 114
-      Script: {instanceID: 21946}
+      Script: {instanceID: 21948}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -214,13 +215,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 20070}
     - Class: 114
-      Script: {instanceID: 20314}
+      Script: {instanceID: 20316}
     - Class: 114
-      Script: {instanceID: 20614}
+      Script: {instanceID: 20616}
     - Class: 114
-      Script: {instanceID: 21080}
+      Script: {instanceID: 21082}
     - Class: 114
-      Script: {instanceID: 21946}
+      Script: {instanceID: 21948}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -293,23 +294,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 20000}
     - Class: 114
-      Script: {instanceID: 20314}
+      Script: {instanceID: 20100}
     - Class: 114
-      Script: {instanceID: 20614}
+      Script: {instanceID: 20316}
     - Class: 114
-      Script: {instanceID: 20778}
+      Script: {instanceID: 20616}
     - Class: 114
-      Script: {instanceID: 21080}
+      Script: {instanceID: 20780}
     - Class: 114
-      Script: {instanceID: 21518}
+      Script: {instanceID: 21082}
     - Class: 114
-      Script: {instanceID: 21574}
+      Script: {instanceID: 21520}
     - Class: 114
-      Script: {instanceID: 21946}
+      Script: {instanceID: 21576}
     - Class: 114
-      Script: {instanceID: 22248}
+      Script: {instanceID: 21948}
     - Class: 114
-      Script: {instanceID: 24034}
+      Script: {instanceID: 22250}
+    - Class: 114
+      Script: {instanceID: 36288}
+    - Class: 114
+      Script: {instanceID: 38304}
+    - Class: 114
+      Script: {instanceID: 38320}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -390,21 +397,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 19196}
     - Class: 114
-      Script: {instanceID: 20314}
+      Script: {instanceID: 20316}
     - Class: 114
-      Script: {instanceID: 20614}
+      Script: {instanceID: 20616}
     - Class: 114
-      Script: {instanceID: 20778}
+      Script: {instanceID: 20780}
     - Class: 114
-      Script: {instanceID: 21080}
+      Script: {instanceID: 21082}
     - Class: 114
-      Script: {instanceID: 21518}
+      Script: {instanceID: 21520}
     - Class: 114
-      Script: {instanceID: 21574}
+      Script: {instanceID: 21576}
     - Class: 114
-      Script: {instanceID: 21946}
+      Script: {instanceID: 21948}
     - Class: 114
-      Script: {instanceID: 22248}
+      Script: {instanceID: 22250}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -962,6 +969,12 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
+      Hash: 3cc4e37a95633d5f214bd9cb025c1466
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SwitchBlinking
+  - hash:
+      serializedVersion: 2
       Hash: d82086405f46de14829f6b4bcbdd8fc9
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1304,10 +1317,22 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 3cc4e37a95633d5f214bd9cb025c1466
+      Hash: 9bb878cf1332505c44e35daf9aaa8ddc
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: SwitchBlinking
+    className: CameraController
+  - hash:
+      serializedVersion: 2
+      Hash: 48a593f33f67fbaef8d834069d6682a8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ZoomInTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: e37aadd2c7541d0d4dd1c3c5952390ac
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ZoomOutTrigger
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity

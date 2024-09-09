@@ -72,6 +72,9 @@
     <Compile Include="Assets\Script\BounceObject.cs" />
     <Compile Include="Assets\Script\FlipperScript.cs" />
     <Compile Include="Assets\Script\SwitchBlinking.cs" />
+    <Compile Include="Assets\Script\ZoomInTrigger.cs" />
+    <Compile Include="Assets\Script\ZoomOutTrigger.cs" />
+    <Compile Include="Assets\Script\CameraController.cs" />
     <Compile Include="Assets\Script\GameManagerScript.cs" />
   </ItemGroup>
   <ItemGroup>
